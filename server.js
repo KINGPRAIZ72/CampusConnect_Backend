@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import authRoutes from "./routes/auth.js";
 import adminRoutes from "./routes/admin.js";
-import userRoutes from "./routes/user.js";
+import userRoutes from "./routes/User.js";
 import announcementRoutes  from "./routes/announcement.js";
 import eventRoutes  from "./routes/event.js";
 import bodyParser from 'body-parser';
